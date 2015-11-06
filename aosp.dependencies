@@ -16,5 +16,11 @@
     "repository":  "sb6596/android_proprietary_vendor_zuk",
     "target_path": "vendor/zuk",
     "branch":      "8.1.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "omnirom/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch":      "android-8.1"
   }
 ]

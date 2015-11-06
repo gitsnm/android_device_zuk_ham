@@ -189,8 +189,11 @@ PRODUCT_PACKAGES += \
     keystore.msm8974
 
 # Thermal
+PRODUCT_PACKAGES += \
+    thermanager
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine-8974.conf:system/vendor/etc/thermal-engine-8974.conf
+    $(LOCAL_PATH)/configs/thermanager.xml:system/vendor/etc/thermanager.xml
 
 # RCS
 PRODUCT_PACKAGES += \
