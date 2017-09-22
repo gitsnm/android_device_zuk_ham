@@ -144,6 +144,10 @@ PRODUCT_COPY_FILES += \
 # HIDL
 $(call inherit-product, $(LOCAL_PATH)/hidl.mk)
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.ham
+
 # IPC Security config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/vendor/etc/sec_config
