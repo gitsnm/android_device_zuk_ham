@@ -194,7 +194,8 @@ TARGET_RELEASETOOLS_EXTENSIONS 	:= $(DEVICE_PATH)
 ADD_RADIO_FILES 		:= true
 
 # Use HW crypto for ODE
-TARGET_HW_DISK_ENCRYPTION 	:= true
+TARGET_HW_DISK_ENCRYPTION 	 := true
+TARGET_LEGACY_HW_DISK_ENCRYPTION := true
 
 # Added to indicate that protobuf-c is supported in this build
 PROTOBUF_SUPPORTED 		:= true
