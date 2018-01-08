@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl 
 
+# OMX
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0-impl 
