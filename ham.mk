@@ -173,8 +173,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.media.treble_omx=false \
-    camera.disable_treble=true
+    camera.disable_treble=true 
 
 # Power
 PRODUCT_PACKAGES += \
