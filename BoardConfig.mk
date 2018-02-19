@@ -220,7 +220,7 @@ ifeq ($(HOST_OS),linux)
 endif
 
 # Extended filesystem support
-TARGET_EXFAT_DRIVER := exfat
+TARGET_EXFAT_DRIVER := sdfat
 
 # Use Snapdragon LLVM Compiler
 TARGET_USE_SDCLANG := true
