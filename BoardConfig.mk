@@ -214,6 +214,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Extended filesystem support
+TARGET_KERNEL_HAVE_EXFAT := true
+
 # Use Snapdragon LLVM Compiler
 TARGET_USE_SDCLANG := true
 
