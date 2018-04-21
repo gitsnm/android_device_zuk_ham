@@ -1,0 +1,2 @@
+#============= mpdecision ==============
+dontaudit mpdecision self:capability sys_ptrace;

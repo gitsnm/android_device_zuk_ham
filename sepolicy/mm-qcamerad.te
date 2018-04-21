@@ -1,0 +1,2 @@
+#============= mm-qcamerad ==============
+allow mm-qcamerad untrusted_app:fd use;
