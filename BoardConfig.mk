@@ -91,6 +91,7 @@ TARGET_USES_NON_TREBLE_CAMERA 		:= true
 
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK 	:= true
+BOARD_GLOBAL_CFLAGS 			+= -DBATTERY_REAL_INFO
 
 # Tap to wake
 TARGET_TAP_TO_WAKE_NODE := /sys/devices/virtual/touch/tp_dev/gesture_on
