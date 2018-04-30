@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine-8974.conf
 
+# Power
+PRODUCT_PACKAGES += \
+    power.msm8974
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
