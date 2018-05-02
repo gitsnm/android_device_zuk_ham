@@ -1,0 +1,5 @@
+#============= hal_gnss_default ==============
+allow hal_gnss_default qmuxd_socket:dir { add_name write open };
+allow hal_gnss_default qmuxd_socket:sock_file { create write };
+allow hal_gnss_default qmuxd:unix_stream_socket { connectto };
+allow hal_gnss_default location_data_file:file { read open getattr write };
