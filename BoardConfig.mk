@@ -181,7 +181,7 @@ TARGET_USES_MEDIA_EXTENSIONS 	:= true
 TARGET_POWERHAL_VARIANT 	:= qcom
 
 # Recovery
-TARGET_RECOVERY_FSTAB 		:= $(DEVICE_PATH)/rootdir/etc/fstab.recovery
+TARGET_RECOVERY_FSTAB 		:= $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS 	:= $(DEVICE_PATH)
