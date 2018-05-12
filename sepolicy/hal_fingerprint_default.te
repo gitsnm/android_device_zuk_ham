@@ -1,7 +1,9 @@
 #============= hal_fingerprint_default ==============
 allow hal_fingerprint_default data_qsee_file:dir { add_name remove_name search write }; 
 allow hal_fingerprint_default data_qsee_file:file { rename unlink }; 
-allow hal_fingerprint_default fpc_device:chr_file { open read }; 
-allow hal_fingerprint_default sysfs:file write; 
+allow hal_fingerprint_default fingerprint_device:chr_file { open read }; 
+allow hal_fingerprint_default sysfs:file write;
+allow hal_fingerprint_default sysfs_fpc_irq:file { write open };
+allow hal_fingerprint_default sysfs_fpc_enable_navi:file write;
 allow hal_fingerprint_default tee_device:chr_file { ioctl open read write };
 allow hal_fingerprint_default vfat:file { getattr open read };
