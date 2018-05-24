@@ -1,7 +1,0 @@
-type display_sysfs, sysfs_type, file_type;
-type vibeamp_sysfs, sysfs_type, file_type;
-type touchpanel_sysfs, fs_type, sysfs_type;
-type fingerprint_device, dev_type, fs_type;
-type sysfs_fpc_irq, fs_type, sysfs_type;
-type sysfs_fpc_enable_navi, fs_type, sysfs_type;
-

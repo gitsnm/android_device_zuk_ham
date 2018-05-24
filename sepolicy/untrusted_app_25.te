@@ -1,3 +1,0 @@
-#============= untrusted_app_25 ==============
-dontaudit untrusted_app_25 proc:file { getattr open read };
-dontaudit untrusted_app_25 system_data_file:dir read;

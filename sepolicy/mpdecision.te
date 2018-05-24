@@ -1,5 +1,0 @@
-#============= mpdecision ==============
-dontaudit mpdecision self:capability sys_ptrace;
-
-allow mpdecision sysfs_memory:dir search;
-allow mpdecision sysfs_memory:file { open write read };

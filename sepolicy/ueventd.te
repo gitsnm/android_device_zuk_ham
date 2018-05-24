@@ -1,2 +1,0 @@
-#============= ueventd ==============
-allow ueventd vfat:file { read open getattr };
