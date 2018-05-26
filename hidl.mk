@@ -37,7 +37,8 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl
+    android.hardware.drm@1.0-impl \
+    android.hardware.drm@1.0-service
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
@@ -52,6 +53,11 @@ PRODUCT_PACKAGES += \
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl 
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
 
 # Net
 PRODUCT_PACKAGES += \
