@@ -178,6 +178,7 @@ TARGET_USES_MEDIA_EXTENSIONS 	:= true
 
 # PowerHAL
 TARGET_HAS_LEGACY_POWER_STATS	:= true
+TARGET_HAS_NO_WIFI_STATS	:= true
 
 # Recovery
 TARGET_RECOVERY_FSTAB 		:= $(DEVICE_PATH)/rootdir/etc/fstab.qcom
