@@ -120,8 +120,8 @@ PRODUCT_PACKAGES += \
     DeviceSettings
 
 #Fingerprint
-PRODUCT_PACKAGES += \
-    fingerprint.msm8974
+#PRODUCT_PACKAGES += \
+#    fingerprint.msm8974
 
 # Graphics
 PRODUCT_PACKAGES += \
