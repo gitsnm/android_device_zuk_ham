@@ -119,10 +119,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceSettings
 
-#Fingerprint
-#PRODUCT_PACKAGES += \
-#    fingerprint.msm8974
-
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
