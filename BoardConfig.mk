@@ -64,6 +64,9 @@ endif
 # QCOM
 BOARD_USES_QCOM_HARDWARE 	:= true
 
+# Fixes Wifi-Mobile Data toggle issue
+MALLOC_SVELTE := true
+
 # Audio
 USE_CUSTOM_AUDIO_POLICY 			:= 1
 BOARD_USES_ALSA_AUDIO 				:= true
