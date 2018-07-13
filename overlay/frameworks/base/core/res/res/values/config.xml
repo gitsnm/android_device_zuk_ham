@@ -267,10 +267,10 @@
 	<bool name="config_setColorTransformAccelerated">true</bool>
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
-<!--    <bool name="config_multiColorBatteryLed">true</bool> -->
+    <bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
-<!--    <bool name="config_ledCanPulse">true</bool> -->
+    <bool name="config_ledCanPulse">true</bool>
 
     <!-- Boolean indicating whether we want button brightness support -->
     <bool name="config_button_brightness_support">true</bool>
@@ -303,7 +303,7 @@
     </string-array>
 
     <!-- Whether the always on display mode is available. -->
-    <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>

@@ -20,7 +20,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/zuk/ham/ham.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/screwd/main.mk)
+$(call inherit-product, vendor/screwd/configs/caf_required.mk)
 
 PRODUCT_NAME := havoc_ham
 PRODUCT_DEVICE := ham
