@@ -16,6 +16,7 @@
 #
 
 DEVICE_PATH := device/zuk/ham
+LOCAL_PATH := device/zuk/ham
 
 # TODO: shouldn't be here
 BOARD_VENDOR := zuk
