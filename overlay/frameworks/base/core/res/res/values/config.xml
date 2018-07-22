@@ -282,7 +282,7 @@
 
     <!-- Boolean indicating whether we want button brightness support -->
 <!--    <bool name="config_button_brightness_support">true</bool> -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+<!--    <bool name="config_deviceHasVariableButtonBrightness">true</bool>-->
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -315,7 +315,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
     <!-- Whether notify fingerprint client of successful cancelled authentication -->
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
+<!--    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>-->
 
     <!-- Screen Brightness when dozing -->
     <integer name="config_screenBrightnessDoze">17</integer>

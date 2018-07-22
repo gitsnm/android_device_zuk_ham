@@ -29,7 +29,7 @@ $(call inherit-product, vendor/carbon/config/gsm.mk)
 # Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
 
-PRODUCT_NAME := cos_ham
+PRODUCT_NAME := carbon_ham
 PRODUCT_DEVICE := ham
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_MODEL := ZUK Z1
