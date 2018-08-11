@@ -191,6 +191,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     keystore.msm8974
 
+# Power
+PRODUCT_PACKAGES += \
+    power.msm8974
+
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/vendor/etc/thermal-engine-8974.conf
