@@ -69,7 +69,7 @@ BOARD_USES_QCOM_HARDWARE 	:= true
 MALLOC_SVELTE := true
 
 # Audio
-USE_CUSTOM_AUDIO_POLICY 			:= 1
+USE_CUSTOM_AUDIO_POLICY 			:= 0
 BOARD_USES_ALSA_AUDIO 				:= true
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS 	:= true
 AUDIO_FEATURE_ENABLED_HWDEP_CAL 		:= true
@@ -160,7 +160,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE 	:= ext4
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE 	:= ext4
 BOARD_OEMIMAGE_FILE_SYSTEM_TYPE 	:= ext4
 BOARD_FLASH_BLOCK_SIZE 			:= 131072
-TARGET_FS_CONFIG_GEN 			:= $(DEVICE_PATH)/config.fs
+#TARGET_FS_CONFIG_GEN 			:= $(DEVICE_PATH)/config.fs
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
@@ -215,10 +215,10 @@ TARGET_EXFAT_DRIVER := sdfat
 
 # SELinux policies
 # qcom sepolicy
-include device/qcom/sepolicy/sepolicy.mk
-include device/qcom/sepolicy/legacy-sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/legacy-sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    $(DEVICE_PATH)/sepolicy
 
 -include vendor/zuk/ham/BoardConfigVendor.mk
