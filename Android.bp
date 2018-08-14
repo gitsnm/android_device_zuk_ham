@@ -2,4 +2,5 @@ subdirs = [
     "camera/provider",
     "biometrics",
     "light",
+    "bluetooth/impl",
 ]
