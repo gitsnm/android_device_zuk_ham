@@ -20,15 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/zuk/ham/ham.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official Build-Type
-CUSTOM_BUILD_TYPE := ALPHA
-
-PRODUCT_NAME := aosp_ham
+PRODUCT_NAME := potato_ham
 PRODUCT_DEVICE := ham
 PRODUCT_MANUFACTURER := ZUK
 PRODUCT_MODEL := ZUK Z1
