@@ -1,3 +1,3 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cos.mk
+    $(LOCAL_DIR)/carbon_ham.mk
 
