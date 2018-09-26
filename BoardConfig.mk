@@ -56,6 +56,9 @@ BOARD_KERNEL_CMDLINE 		:= console=tty60,115200,n8 androidboot.hardware=qcom user
 BOARD_KERNEL_CMDLINE 		+= androidboot.selinux=permissive
 TARGET_KERNEL_SOURCE 		:= kernel/cyanogen/msm8974
 TARGET_KERNEL_CONFIG 		:= lineageos_k9_defconfig
+KERNEL_TOOLCHAIN        := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin
+BOARD_CUSTOM_BOOTIMG_MK := device/zuk/ham/mkbootimg.mk
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Enable DIAG on eng builds
 ifeq ($(TARGET_BUILD_VARIANT),eng)
@@ -64,6 +67,12 @@ endif
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE 	:= true
+TARGET_USES_QCOM_BSP := true
+ # Audio/media/display
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8974
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8974
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8974
+TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8974
 
 # Audio
 BOARD_USES_ALSA_AUDIO 				:= true
