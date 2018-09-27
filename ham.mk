@@ -109,8 +109,8 @@ PRODUCT_PACKAGES += \
     charger_res_images
 
 # ConfigPanel
-PRODUCT_PACKAGES += \
-    ConfigPanel
+#PRODUCT_PACKAGES += \
+#    ConfigPanel
 
 # DeviceSettings
 PRODUCT_PACKAGES += \

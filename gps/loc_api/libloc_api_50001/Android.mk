@@ -40,7 +40,7 @@ LOCAL_CFLAGS += \
 LOCAL_C_INCLUDES:= \
     $(TARGET_OUT_HEADERS)/gps.utils \
     $(TARGET_OUT_HEADERS)/libloc_core \
-    $(call project-path-for,qcom-gps)/loc_api/libloc_api_50001 \
+    device/zuk/ham/gps/loc_api/libloc_api_50001 \
     $(TARGET_OUT_HEADERS)/libflp
 
 LOCAL_HEADER_LIBRARIES := libgps.utils_headers libloc_core_headers

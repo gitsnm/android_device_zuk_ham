@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_C_INCLUDES += \
-     hardware/qcom/audio-caf-msm8974/hal/msm8974/ \
+     hardware/qcom/audio-caf-8974/hal/msm8974/ \
      $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
 		 hardware/libhardware/include
 
