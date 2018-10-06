@@ -330,4 +330,6 @@
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorNotificationLed">true</bool>
 
+    <!-- IP address of the dns server to use if nobody else suggests one --> 
+    <string name="config_default_dns_server" translatable="false">1.1.1.1</string>
 </resources>
