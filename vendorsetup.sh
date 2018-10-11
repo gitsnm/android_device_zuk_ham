@@ -1,1 +1,1 @@
-add_lunch_combo potato_ham-userdebug
+add_lunch_combo aosp_ham-userdebug

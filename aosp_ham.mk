@@ -19,8 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from ham device
 $(call inherit-product, device/zuk/ham/ham.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common PixelExperience stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_NAME := potato_ham
 PRODUCT_DEVICE := ham
