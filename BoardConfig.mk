@@ -163,7 +163,9 @@ BOARD_FLASH_BLOCK_SIZE 			:= 131072
 TARGET_FS_CONFIG_GEN 			:= $(DEVICE_PATH)/config.fs
 
 # Lineage Hardware
-BOARD_HARDWARE_CLASS 	+= $(DEVICE_PATH)/lineagehw
+#BOARD_HARDWARE_CLASS 	+= $(DEVICE_PATH)/lineagehw
+# Key Disabler
+JAVA_SOURCE_OVERLAYS := org.pixelexperience.keydisabler|$(PLATFORM_PATH)/keydisabler|**/*.java
 
 # GPS HAL lives here
 USE_DEVICE_SPECIFIC_GPS 		:= true
