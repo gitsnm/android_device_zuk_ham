@@ -374,4 +374,10 @@
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
+
+    <!-- If this is true, the screen will fade off. -->
+    <bool name="config_animateScreenLights">false</bool>
+     <!-- Make things go fast -->
+    <bool name="config_ui_enableFadingMarquee">false</bool>
+
 </resources>
