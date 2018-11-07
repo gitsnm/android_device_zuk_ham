@@ -380,4 +380,12 @@
      <!-- Make things go fast -->
     <bool name="config_ui_enableFadingMarquee">false</bool>
 
+    <!-- Does the battery LED support multiple colors? -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
+
 </resources>
