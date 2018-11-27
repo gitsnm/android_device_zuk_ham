@@ -64,7 +64,7 @@ on enable-low-power
     chmod 664 /sys/module/cpu_boost/parameters/input_boost_ms
 
     write /sys/class/devfreq/qcom,cpubw.40/governor "cpubw_hwmon"
-    write /sys/class/kgsl/kgsl-3d0/devfreq/governor msm-adreno-tz
+    write /sys/class/kgsl/kgsl-3d0/devfreq/governor "msm-adreno-tz"
 
     write /dev/cpuctl/cpu.notify_on_migrate 1
 
@@ -101,5 +101,5 @@ on property:init.svc.recovery=running
 on property:dev.bootcomplete=1
     rm /data/system/perfd/default_values
     setprop sys.post_boot.parsed 1
-    setprop sys.io.scheduler bfq
+    setprop sys.io.scheduler "bfq"
     start mpdecision
